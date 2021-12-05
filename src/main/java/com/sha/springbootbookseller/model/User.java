@@ -1,15 +1,20 @@
-package model;
-
+package com.sha.springbootbookseller.model;
 
 import lombok.Data;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
+/**
+ * @author sa
+ * @date 3.07.2021
+ * @time 16:53
+ */
 @Data
 @Entity
-@Table (name = "users")
-public class User {
+@Table(name = "users") //don't use user because user is reserved name on PostgreSQL.
+public class User
+{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -29,4 +34,7 @@ public class User {
     @Enumerated(EnumType.STRING)
     @Column(name = "role", nullable = false)
     private Role role;
+
+    @Transient
+    private String token;
 }

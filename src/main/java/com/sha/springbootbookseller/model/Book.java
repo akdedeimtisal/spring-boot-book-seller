@@ -1,13 +1,20 @@
-package model;
+package com.sha.springbootbookseller.model;
 
 import lombok.Data;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+
+/**
+ * @author sa
+ * @date 3.07.2021
+ * @time 17:36
+ */
 @Data
 @Entity
 @Table(name = "books")
-public class Book {
+public class Book
+{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -26,5 +33,4 @@ public class Book {
 
     @Column(name = "create_time", nullable = false)
     private LocalDateTime createTime;
-
 }

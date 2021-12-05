@@ -1,9 +1,9 @@
 package com.sha.springbootbookseller.repository;
 
-import model.Book;
+import com.sha.springbootbookseller.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface BookRepository extends JpaRepository<Book, Long> {
+public interface IBookRepository extends JpaRepository<Book, Long> {
 
 
 
