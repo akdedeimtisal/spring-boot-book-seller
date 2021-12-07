@@ -7,7 +7,7 @@
 
 ###Sign-up
 POST 'http://localhost:8080/api/authentication/sign-up' 
-header 'Content-Type: application/json' 
+'Content-Type: application/json' 
 {
 
     "name":"name",
@@ -16,10 +16,11 @@ header 'Content-Type: application/json'
 }
 
 
-###Sign-in
-POST 'http://localhost:8080/api/authentication/sign-in' 
-header 'Content-Type: application/json' 
-{
-"username":"username",
-"password":"password"
-}
+### Sign-in
+POST 'http://localhost:8080/api/authentication/sign-in' \
+'Content-Type: application/json' \
+ '{
+
+    "username":"username",
+    "password":"password"
+}'
