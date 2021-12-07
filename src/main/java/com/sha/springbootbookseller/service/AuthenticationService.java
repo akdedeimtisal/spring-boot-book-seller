@@ -9,11 +9,7 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
 
-/**
- * @author sa
- * @date 3.07.2021
- * @time 19:40
- */
+
 @Service
 public class AuthenticationService implements IAuthenticationService
 {

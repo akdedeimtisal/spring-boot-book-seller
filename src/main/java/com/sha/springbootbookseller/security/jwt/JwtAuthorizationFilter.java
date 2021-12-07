@@ -11,11 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author sa
- * @date 3.07.2021
- * @time 19:33
- */
+
 public class JwtAuthorizationFilter extends OncePerRequestFilter
 {
     @Autowired

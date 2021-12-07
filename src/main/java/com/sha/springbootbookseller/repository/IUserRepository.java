@@ -9,11 +9,7 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.Optional;
 
-/**
- * @author sa
- * @date 3.07.2021
- * @time 17:51
- */
+
 public interface IUserRepository extends JpaRepository<User, Long>
 {
     Optional<User> findByUsername(String username);

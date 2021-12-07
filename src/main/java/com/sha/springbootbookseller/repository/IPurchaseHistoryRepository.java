@@ -8,11 +8,6 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
-/**
- * @author sa
- * @date 3.07.2021
- * @time 17:57
- */
 public interface IPurchaseHistoryRepository extends JpaRepository<PurchaseHistory, Long>
 {
     @Query("select " +

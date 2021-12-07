@@ -5,11 +5,6 @@ import lombok.Data;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
-/**
- * @author sa
- * @date 3.07.2021
- * @time 17:47
- */
 @Data
 @Entity
 @Table(name = "purchase_history")

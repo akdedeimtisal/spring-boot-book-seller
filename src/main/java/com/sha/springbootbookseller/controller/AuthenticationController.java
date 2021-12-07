@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
 @RestController
 @RequestMapping("api/authentication")//pre-path
 public class AuthenticationController
@@ -24,10 +25,10 @@ public class AuthenticationController
     @PostMapping("sign-up") //api/authentication/sign-up
     public ResponseEntity<?> signUp(@RequestBody User user)
     {
-     /*   if (userService.findByUsername(user.getUsername()).isPresent())
+        if (userService.findByUsername(user.getUsername()).isPresent())
         {
             return new ResponseEntity<>(HttpStatus.CONFLICT);
-        }*/
+        }
         return new ResponseEntity<>(userService.saveUser(user), HttpStatus.CREATED);
     }
 

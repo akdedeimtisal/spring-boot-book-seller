@@ -12,11 +12,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-/**
- * @author sa
- * @date 3.07.2021
- * @time 18:19
- */
 @Service
 public class CustomUserDetailsService implements UserDetailsService
 {

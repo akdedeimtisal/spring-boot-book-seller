@@ -13,11 +13,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 import java.util.Set;
 
-/**
- * @author sa
- * @date 3.07.2021
- * @time 18:24
- */
+
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor

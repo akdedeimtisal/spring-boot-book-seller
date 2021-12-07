@@ -12,11 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author sa
- * @date 3.07.2021
- * @time 20:01
- */
+
 @Slf4j
 public class InternalApiAuthenticationFilter extends OncePerRequestFilter
 {

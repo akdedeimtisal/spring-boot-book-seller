@@ -5,11 +5,7 @@ import lombok.Data;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
-/**
- * @author sa
- * @date 3.07.2021
- * @time 16:53
- */
+
 @Data
 @Entity
 @Table(name = "users") //don't use user because user is reserved name on PostgreSQL.
