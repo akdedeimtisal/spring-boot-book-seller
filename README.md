@@ -3,9 +3,9 @@
 
 
 
-###Endpoints
+### Endpoints
 
-###Sign-up
+### Sign-up
 POST 'http://localhost:8080/api/authentication/sign-up' 
 'Content-Type: application/json' 
 {
