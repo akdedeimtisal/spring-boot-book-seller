@@ -1,6 +1,7 @@
 # spring-boot-book-seller
 
-
+Project Link: https://sha-book-seller-ui-angular.herokuapp.com/home
+Frontednt Link: https://github.com/akdedeimtisal/angular-book-seller
 
 
 ### Endpoints
